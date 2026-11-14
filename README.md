@@ -60,3 +60,14 @@ The monitoring services are currently running as separate Docker containers.
 ## Project Status
 
 Metrics, dashboards, logs, and distributed tracing have been integrated and tested.
+
+## Project Screenshots
+
+### Grafana – Metrics Dashboard
+![Grafana Dashboard](screenshots/grafana-dashboard.png)
+
+### Loki – Application Logs
+![Loki Logs](screenshots/loki-logs.png)
+
+### Jaeger – Distributed Tracing
+![Jaeger Traces](screenshots/jaeger-traces.png)
