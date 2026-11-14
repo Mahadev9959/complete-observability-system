@@ -1,0 +1,15 @@
+services:
+  flask-app:
+    build: .
+    image: observability-flask:1.1
+    container_name: observability-app
+    ports:
+      - "5001:5000"
+    networks:
+      - monitoring
+    restart: unless-stopped
+
+networks:
+  monitoring:
+    name: monitoring-project_default
+    external: true
